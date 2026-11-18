@@ -6,7 +6,7 @@ A hands-on Infrastructure as Code (IaC) portfolio project that provisions a smal
 
 ## Architecture diagram
 
-![AWS Terraform architecture](images/aws-terraform-architecture.png)
+![AWS Terraform architecture](../images/aws-terraform-architecture.png)
 
 The diagram shows the VPC, public subnet, Internet Gateway, route table, EC2 instance, security group, IAM instance profile, EBS volume, and Systems Manager access path.
 
