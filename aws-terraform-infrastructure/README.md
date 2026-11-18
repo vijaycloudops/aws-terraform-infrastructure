@@ -2,7 +2,7 @@
 
 A hands-on Infrastructure as Code (IaC) portfolio project that provisions a small AWS environment using Terraform.
 
-> **Portfolio transparency:** This repository is a learning/demo implementation. Add your own deployment screenshots, decisions, and troubleshooting notes after running it. Do not describe it as production experience unless it was actually used in production.
+> **Project Overview:** This repository contains my hands-on AWS Infrastructure Automation project, developed using Terraform (Infrastructure as Code). It demonstrates automated provisioning of AWS networking, EC2 compute resources, IAM roles, security configurations, and Systems Manager integration. The project focuses on infrastructure automation, secure access, repeatable deployments, and cloud resource management.
 
 ## Architecture diagram
 
