@@ -2,7 +2,7 @@
 
 A hands-on Infrastructure as Code (IaC) portfolio project that provisions a small AWS environment using Terraform.
 
-> **Portfolio transparency:** This repository is a learning/demo implementation. Update this README with your own deployment screenshots, decisions, and troubleshooting notes after you have run it. Do not describe it as production experience unless it was actually used in production.
+> **Portfolio transparency:** This is public repository. Update this README with your own deployment screenshots, decisions, and troubleshooting notes after you have run it. Do not describe it as production experience unless it was actually used in production.
 
 ## Architecture
 
@@ -94,17 +94,6 @@ Confirm the destroy plan before approving it.
 - The root EBS volume is encrypted.
 - Egress is limited to HTTPS and DNS in this demo.
 - For production, consider private subnets, VPC endpoints, tighter egress controls, centralized logging, policy-as-code, remote Terraform state with locking, and least-privilege IAM policies.
-
-## Interview discussion points
-
-Be prepared to explain:
-
-1. Why a VPC, subnet, Internet Gateway, and route table are needed.
-2. How Terraform references create dependency ordering.
-3. Why an EC2 instance profile is used instead of hard-coded credentials.
-4. How Session Manager provides access without opening SSH.
-5. How Terraform state works and why it must be protected.
-6. What you would change to run workloads in private subnets.
 
 ## Next improvements
 
